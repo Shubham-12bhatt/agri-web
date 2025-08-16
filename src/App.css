@@ -1,8 +1,9 @@
 @import "tailwindcss";
 :root{
-  font-family:"Poppins",sans-serif;
+  font-family:"Poppins";
   color: #0E0B50;
   background-color: #ECFFDE;
+
 }
 .diffgreen{
   background: #65BA34;

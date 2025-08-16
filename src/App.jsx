@@ -10,14 +10,11 @@ function App() {
   return (
     <>
       <Navbar />
-
       <Hero />
-
       <AboutUs></AboutUs>
       <OurProducts />
       <Testimonials />
       <Contact />
-
       <Footer />
     </>
   );

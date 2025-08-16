@@ -6,8 +6,7 @@ export default function NonBasmati() {
      { title: 'PR 11 Rice',path: '/non-basmati/pr11'  },
         { title: 'PR 14 Rice', path: '/non-basmati/pr14' },
         { title: 'IR 64 Rice', path: '/non-basmati/ir64'},
-        {title: 'Sona Masoori Rice' , path: '/non-basmati/sona-masoori'},
-        { title: 'Jeera Kasala Rice', path: '/non-basmati/jeera-kasala' },
+       
     
   ];
 

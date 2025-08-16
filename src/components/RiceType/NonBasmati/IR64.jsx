@@ -6,6 +6,10 @@ export default function IR64() {
       name: "IR 64 Parboiled Rice",
       image: "/images/1121RawBasmati.jpg",
     },
+     {
+      name: " IR 64 White Rice",
+      image: "/images/1121SteamBasmati.jpg",
+    },
    
   ];
 
@@ -42,10 +46,44 @@ export default function IR64() {
           {/* Description Box */}
           <div className="bg-white/70 border-2 border-gray-300 rounded-lg p-8 mb-16 max-w-4xl mx-auto">
             <p className="text-gray-700 leading-relaxed text-justify">
-            IR64 Rice is a popular non-basmati rice variety cultivated in India, particularly in the states of Andhra Pradesh and Tamil Nadu. It is known for its medium grain size, soft texture, and affordability. IR64 Rice is commonly used in everyday meals and is a staple in many Indian households. IR64 Rice is a popular choice for daily meals, economical export options, and is widely used in traditional Indian dishes such as khichdi, plain rice, and curries. It cooks quickly and evenly, maintaining a soft texture. IR64 Rice is often preferred for its budget-friendly price and versatility in various cuisines.
+             This rice is not much big in size but are really good in taste and smell.
+ High protein content and dietary fiber, Delicious taste, Natural aroma, Economical
+              prices.
+              <span className="block mt-2 font-semibold text-green-700  px-2 py-1 rounded">
+    100% Sortexed, Cleaned and Polished
+  </span>
             </p>
           </div>
         </div>
+         <div className="bg-white/70 border-2 border-gray-300 rounded-lg p-8 mb-16 max-w-4xl mx-auto">
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">Additional Information:</h3>
+            <table className="w-full">
+              <tbody>
+                <tr className="border-b border-gray-200">
+                  <td className="py-2 font-medium text-gray-700"> Average Grain
+ Length</td>
+                  <td className="py-2 text-gray-600">5.95 mm, 6.0 mm</td>
+                </tr>
+            
+                <tr className="border-b border-gray-200">
+                  <td className="py-2 font-medium text-gray-700">Broken</td>
+                  <td className="py-2 text-gray-600">25%, below 5%</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-2 font-medium text-gray-700">Moisture</td>
+                  <td className="py-2 text-gray-600">Below 14%</td>
+              </tr>
+              <tr className="border-b border-gray-200">
+                  <td className="py-2 font-medium text-gray-700">Purity</td>
+                  <td className="py-2 text-gray-600">95%</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-medium text-gray-700">Sortex Cleaned</td>
+                  <td className="py-2 text-gray-600">100%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
         {/* Variety Section */}
         <div className="bg-white py-10 mt-10 pb-30">
@@ -57,33 +95,33 @@ export default function IR64() {
           </div>
 
           {/* Rice Variety Cards */}
-          <div className="grid grid-cols-1 justify-center lg:grid-cols-1 lg:w-100 lg:gap-6 gap-10 max-w-6xl lg:mx-auto mx-20">
-            {riceVarieties.map((variety, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-200 border border-transparent "
-              >
-                {/* Image with subtle zoom */}
-                <div className="aspect-square overflow-hidden">
-                  <img
-                    src={variety.image}
-                    alt={variety.name}
-                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.02]"
-                  />
-                </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 max-w-3xl lg:mx-auto mx-20">
+  {riceVarieties.map((variety, index) => (
+    <div
+      key={index}
+      className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-200 border border-transparent"
+    >
+      {/* Image with subtle zoom */}
+      <div className="aspect-square overflow-hidden">
+        <img
+          src={variety.image}
+          alt={variety.name}
+          className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.02]"
+        />
+      </div>
 
-                {/* Label with matching glow */}
-                <div className="bg-[#193317] text-white p-3 transition-all duration-300 group-hover:shadow-[0_0_15px_rgba(25,51,23,0.4)]">
-                  <div className="flex items-center justify-center space-x-2">
-                    <Wheat className="w-4 h-4 text-white" />
-                    <span className="text-sm font-medium text-center">
-                      {variety.name}
-                    </span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+      {/* Label with matching glow */}
+      <div className="bg-[#193317] text-white p-3 transition-all duration-300 group-hover:shadow-[0_0_15px_rgba(25,51,23,0.4)]">
+        <div className="flex items-center justify-center space-x-2">
+          <Wheat className="w-4 h-4 text-white" />
+          <span className="text-sm font-medium text-center">
+            {variety.name}
+          </span>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
         </div>
       </div>
     </div>

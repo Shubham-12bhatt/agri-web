@@ -3,8 +3,17 @@ import { Wheat } from "lucide-react";
 export default function PR11() {
   const riceVarieties = [
     {
-      name: "PR 11 Raw Rice",
+      name: "PR-11 White/ Creamy Sella",
       image: "/images/1121RawBasmati.jpg",
+    },
+   
+    {
+      name: " PR–11 Steam",
+      image: "/images/1121SteamBasmati.jpg",
+    },
+    {
+      name: " PR-11 Golden Sella",
+      image: "/images/1121GoldenSella.jpg",
     },
    
   ];
@@ -42,7 +51,11 @@ export default function PR11() {
           {/* Description Box */}
           <div className="bg-white/70 border-2 border-gray-300 rounded-lg p-8 mb-16 max-w-4xl mx-auto">
             <p className="text-gray-700 leading-relaxed text-justify">
-             PR11 Rice is a non-basmati rice variety that is widely cultivated in India, particularly in the states of Punjab and Haryana. It is known for its medium grain size, soft texture, and affordability. PR11 Rice is commonly used in everyday meals and is a staple in many Indian households. PR11 Rice is a popular choice for daily meals, economical export options, and is widely used in traditional Indian dishes such as khichdi, plain rice, and curries. It cooks quickly and evenly, maintaining a soft texture. PR11 Rice is often preferred for its budget-friendly price and versatility in various cuisines.
+              Although it is less fragrant and less in grain size, but even then it is the
+              main eating rice in India due to its cheapest rate.
+               <span className="block mt-2 font-semibold text-green-700  px-2 py-1 rounded">
+    100% Sortexed, Cleaned and Polished
+  </span>
             </p>
           </div>
         </div>
@@ -57,33 +70,35 @@ export default function PR11() {
           </div>
 
           {/* Rice Variety Cards */}
-          <div className="grid grid-cols-1 justify-center lg:grid-cols-1 lg:w-100 lg:gap-6 gap-10 max-w-6xl lg:mx-auto mx-20">
-            {riceVarieties.map((variety, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-200 border border-transparent "
-              >
-                {/* Image with subtle zoom */}
-                <div className="aspect-square overflow-hidden">
-                  <img
-                    src={variety.image}
-                    alt={variety.name}
-                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.02]"
-                  />
-                </div>
+          <div className="flex justify-center">
+  <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-10 max-w-6xl mx-4 lg:mx-auto">
+    {riceVarieties.map((variety, index) => (
+      <div
+        key={index}
+        className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-200 border border-transparent w-full max-w-xs lg:max-w-none mx-auto lg:mx-0"
+      >
+        {/* Image with subtle zoom - made smaller on mobile */}
+        <div className="aspect-square overflow-hidden w-full">
+          <img
+            src={variety.image}
+            alt={variety.name}
+            className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.02]"
+          />
+        </div>
 
-                {/* Label with matching glow */}
-                <div className="bg-[#193317] text-white p-3 transition-all duration-300 group-hover:shadow-[0_0_15px_rgba(25,51,23,0.4)]">
-                  <div className="flex items-center justify-center space-x-2">
-                    <Wheat className="w-4 h-4 text-white" />
-                    <span className="text-sm font-medium text-center">
-                      {variety.name}
-                    </span>
-                  </div>
-                </div>
-              </div>
-            ))}
+        {/* Label with matching glow */}
+        <div className="bg-[#193317] text-white p-3 transition-all duration-300 group-hover:shadow-[0_0_15px_rgba(25,51,23,0.4)]">
+          <div className="flex items-center justify-center space-x-2">
+            <Wheat className="w-4 h-4 text-white" />
+            <span className="text-sm font-medium text-center">
+              {variety.name}
+            </span>
           </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
         </div>
       </div>
     </div>

@@ -1,19 +1,10 @@
 import { Wheat } from "lucide-react";
 
-export default function GoldenSella() {
+export default function IR8() {
   const riceVarieties = [
     {
-      name: "1121 Pesticide Residue Free Golden Sella Rice",
-      image: "/images/GoldenSella/1.jpg",
-    },
-    {
-      name: "1509 Pesticide Residue Free Golden Sella Rice",
-      image: "/images/GoldenSella/2.jpg",
-    },
-   
-    {
-      name: "Sugandha Pesticide Residue Free Golden Sella Rice",
-      image: "/images/GoldenSella/3.jpg",
+      name: " IR 8 White/Cream Sella",
+      image: "/images/1121RawBasmati.jpg",
     },
    
   ];
@@ -33,7 +24,7 @@ export default function GoldenSella() {
 
         {/* Hero Text */}
         <h1 className="relative z-10 text-4xl lg:text-6xl font-bold text-white text-center">
-          Pesticide Residue Free Golden Sella Rice
+          IR 8 Rice
         </h1>
       </div>
 
@@ -43,7 +34,7 @@ export default function GoldenSella() {
           {/* Section Title */}
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-2">
-              Pesticide Residue Free Golden Sella Rice
+              IR 8 Rice
             </h2>
             <div className="w-24 h-0.5 bg-gray-400 mx-auto"></div>
           </div>
@@ -51,7 +42,13 @@ export default function GoldenSella() {
           {/* Description Box */}
           <div className="bg-white/70 border-2 border-gray-300 rounded-lg p-8 mb-16 max-w-4xl mx-auto">
             <p className="text-gray-700 leading-relaxed text-justify">
-             Its 100% safe as its not grown with any chemical or harmful pesticide. The nutrition value is high as compared to conventional rice. Its known and proven fact is golden. It is renowned for superfine kernels, great taste, exquisite aroma, and silky texture. The Sella rice is carefully nurtured to retain its complete nutritional value.
+             This rice is not much big in size but are really good in taste and smell.
+ High protein content and dietary fiber, Delicious taste, Natural aroma, Economical
+ prices.
+
+               <span className="block mt-2 font-semibold text-green-700  px-2 py-1 rounded">
+    100% Sortexed, Cleaned and Polished
+  </span>
             </p>
           </div>
         </div>
@@ -66,7 +63,7 @@ export default function GoldenSella() {
           </div>
 
           {/* Rice Variety Cards */}
-          <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-6 gap-10 max-w-6xl lg:mx-auto mx-20">
+          <div className="grid grid-cols-1 justify-center lg:grid-cols-1 lg:w-100 lg:gap-6 gap-10 max-w-6xl lg:mx-auto mx-20">
             {riceVarieties.map((variety, index) => (
               <div
                 key={index}

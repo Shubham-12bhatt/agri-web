@@ -119,11 +119,35 @@ const Navbar = () => {
                       >
                         Indian Non Basmati Rice
                       </Link>
-                      <Link onClick={closeMobileDrawer}
+                      {/* <Link onClick={closeMobileDrawer}
                         to="/pesticide-free"
                         className="block text-[16px] font-medium text-gray-700 hover:text-green-700 py-2 px-4 rounded-md hover:bg-white/30 transition-all duration-200"
                       >
                         Pesticide Free Basmati Rice
+                      </Link> */}
+                       <Link onClick={closeMobileDrawer}
+                        to="/sugandha"
+                        className="block text-[16px] font-medium text-gray-700 hover:text-green-700 py-2 px-4 rounded-md hover:bg-white/30 transition-all duration-200"
+                      >
+                        Sugandha Rice
+                      </Link>
+                       <Link onClick={closeMobileDrawer}
+                        to="/sharbati"
+                        className="block text-[16px] font-medium text-gray-700 hover:text-green-700 py-2 px-4 rounded-md hover:bg-white/30 transition-all duration-200"
+                      >
+                        Sharbati Rice
+                      </Link>
+                       <Link onClick={closeMobileDrawer}
+                        to="/sona-masuri"
+                        className="block text-[16px] font-medium text-gray-700 hover:text-green-700 py-2 px-4 rounded-md hover:bg-white/30 transition-all duration-200"
+                      >
+                        Sona Masuri Rice
+                      </Link>
+                      <Link onClick={closeMobileDrawer}
+                        to="/pusa"
+                        className="block text-[16px] font-medium text-gray-700 hover:text-green-700 py-2 px-4 rounded-md hover:bg-white/30 transition-all duration-200"
+                      >
+                        Pusa Rice
                       </Link>
                     </div>
                   )}

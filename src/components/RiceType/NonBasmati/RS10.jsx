@@ -1,23 +1,18 @@
 import { Wheat } from "lucide-react";
 
-export default function BasmatiSharbati() {
+export default function RS10() {
   const riceVarieties = [
     {
-      name: "Sharbati Raw Basmati",
+      name: "RS-10 White/Creamy Sella",
       image: "/images/1121RawBasmati.jpg",
     },
+    
     {
-      name: "Sharbati Sella Basmati",
-      image: "/images/1121Sella.webp",
-    },
-    {
-      name: "Sharbati Steam Basmati",
+      name: " RS-10 Steam",
       image: "/images/1121SteamBasmati.jpg",
     },
-    {
-      name: "Sharbati Golden Sella Basmati",
-      image: "/images/1121GoldenSella.jpg",
-    },
+    
+  
   ];
 
   return (
@@ -35,7 +30,7 @@ export default function BasmatiSharbati() {
 
         {/* Hero Text */}
         <h1 className="relative z-10 text-4xl lg:text-6xl font-bold text-white text-center">
-          Sharbati Basmati Rice
+          RS 10 Rice
         </h1>
       </div>
 
@@ -45,7 +40,7 @@ export default function BasmatiSharbati() {
           {/* Section Title */}
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-2">
-              Sharbati Basmati Rice
+              RS 10 Rice
             </h2>
             <div className="w-24 h-0.5 bg-gray-400 mx-auto"></div>
           </div>
@@ -53,7 +48,11 @@ export default function BasmatiSharbati() {
           {/* Description Box */}
           <div className="bg-white/70 border-2 border-gray-300 rounded-lg p-8 mb-16 max-w-4xl mx-auto">
             <p className="text-gray-700 leading-relaxed text-justify">
-             Sharbati Basmati Rice is a premium variety of Basmati rice known for its exceptional aroma, long grains, and delicate flavor. It is primarily grown in the fertile regions of India, particularly in the states of Haryana and Punjab. Sharbati Basmati Rice is characterized by its slender, elongated grains that remain separate and fluffy when cooked. The rice has a distinct nutty aroma and a slightly sweet taste, making it a popular choice for various dishes, including biryanis, pulao, and fried rice. It is also known for its high nutritional value, being a good source of carbohydrates and essential nutrients.
+              Although it is less fragrant and less in grain size, but even then it is the
+ main eating rice in India due to its cheapest rate.
+              <span className="block mt-2 font-semibold text-green-700  px-2 py-1 rounded">
+    100% Sortexed, Cleaned and Polished
+  </span>
             </p>
           </div>
         </div>
@@ -68,12 +67,12 @@ export default function BasmatiSharbati() {
           </div>
 
           {/* Rice Variety Cards */}
-         <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-6 gap-10 max-w-6xl lg:mx-auto mx-20">
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 max-w-3xl lg:mx-auto mx-20">
   {riceVarieties.map((variety, index) => (
-   <div
-  key={index}
-  className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-200 border border-transparent "
->
+    <div
+      key={index}
+      className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-200 border border-transparent"
+    >
       {/* Image with subtle zoom */}
       <div className="aspect-square overflow-hidden">
         <img

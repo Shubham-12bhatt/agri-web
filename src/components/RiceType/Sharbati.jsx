@@ -1,18 +1,17 @@
 import { Wheat } from "lucide-react";
 
-export default function Basmati1401() {
+export default function Sharbati() {
   const riceVarieties = [
     {
-      name: "1401 White/Creamy Sella",
+      name: "Sharbati White/Creamy Sella",
       image: "/images/1121RawBasmati.jpg",
     },
-    
+   
     {
-      name: "1401 Steam Basmati",
+      name: "Sharbati Steam Basmati",
       image: "/images/1121SteamBasmati.jpg",
     },
     
-  
   ];
 
   return (
@@ -30,7 +29,7 @@ export default function Basmati1401() {
 
         {/* Hero Text */}
         <h1 className="relative z-10 text-4xl lg:text-6xl font-bold text-white text-center">
-          1401 Basmati Rice
+          Sharbati Basmati Rice
         </h1>
       </div>
 
@@ -40,7 +39,7 @@ export default function Basmati1401() {
           {/* Section Title */}
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-2">
-              1401 Basmati Rice
+              Sharbati Basmati Rice
             </h2>
             <div className="w-24 h-0.5 bg-gray-400 mx-auto"></div>
           </div>
@@ -48,9 +47,11 @@ export default function Basmati1401() {
           {/* Description Box */}
           <div className="bg-white/70 border-2 border-gray-300 rounded-lg p-8 mb-16 max-w-4xl mx-auto">
             <p className="text-gray-700 leading-relaxed text-justify">
-              This is rich in carbohydrates and is an instant source of energy for the
-              body
-              <span className="block mt-2 font-semibold text-green-700  px-2 py-1 rounded">
+             Sharbati Rice is preferred in homes, hotels, restaurants and canteens.
+ Wisely used to makevariety of Italian and Indian cuisine. This rice is perfectly
+ steamed for that exotic aroma. Tempting in taste, the steam basmati rice has long
+              grains that are non-sticky once cooked. 
+               <span className="block mt-2 font-semibold text-green-700 px-2 py-1 rounded">
     100% Sortexed, Cleaned and Polished
   </span>
             </p>

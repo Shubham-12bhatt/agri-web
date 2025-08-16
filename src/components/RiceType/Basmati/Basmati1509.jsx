@@ -3,13 +3,10 @@ import { Wheat } from "lucide-react";
 export default function Basmati1509() {
   const riceVarieties = [
     {
-      name: "1509 Raw Basmati",
+      name: "1509 White/Creamy Sella ",
       image: "/images/1121RawBasmati.jpg",
     },
-    {
-      name: "1509 Sella Basmati",
-      image: "/images/1121Sella.webp",
-    },
+   
     {
       name: "1509 Steam Basmati",
       image: "/images/1121SteamBasmati.jpg",
@@ -52,14 +49,14 @@ export default function Basmati1509() {
 
           {/* Description Box */}
           <div className="bg-white/70 border-2 border-gray-300 rounded-lg p-8 mb-16 max-w-4xl mx-auto">
-            <p className="text-gray-700 leading-relaxed text-justify">
-              1509 Basmati Rice variety has the longest grain, which can go up
-              to 8.5 mm. 1509 rice is cheaper in comparison to 1121 rice variety
-              because 1509 rice's cultivation time is less and produces higher
-              yield as compared to 1121 rice. Upon cooking, the grains exhibit
-              great elongation, excellent fluffiness, are non-sticky and have a
-              pleasant aroma.
-            </p>
+           <p className="text-gray-700 leading-relaxed text-justify">
+  The 1509 Basmati Rice is astounding cooking grade, twofold cleaned, smooth and whitehued, 
+  slim and elongated grain. It has fine characteristic fragrant flavor and delightful taste. 
+  Subsequent to cooking, rice stays particular, dry and soft in appearance and surface.
+  <span className="block mt-2 font-semibold text-green-700  px-2 py-1 rounded">
+    100% Sortexed, Cleaned and Polished
+  </span>
+</p>
           </div>
         </div>
 
@@ -73,33 +70,33 @@ export default function Basmati1509() {
           </div>
 
           {/* Rice Variety Cards */}
-          <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-6 gap-10 max-w-6xl lg:mx-auto mx-20">
-            {riceVarieties.map((variety, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-200 border border-transparent "
-              >
-                {/* Image with subtle zoom */}
-                <div className="aspect-square overflow-hidden">
-                  <img
-                    src={variety.image}
-                    alt={variety.name}
-                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.02]"
-                  />
-                </div>
+         <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-6 gap-10 max-w-6xl lg:mx-auto mx-20">
+  {riceVarieties.map((variety, index) => (
+    <div
+      key={index}
+      className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-200 border border-transparent"
+    >
+      {/* Image with subtle zoom */}
+      <div className="aspect-square overflow-hidden">
+        <img
+          src={variety.image}
+          alt={variety.name}
+          className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.02]"
+        />
+      </div>
 
-                {/* Label with matching glow */}
-                <div className="bg-[#193317] text-white p-3 transition-all duration-300 group-hover:shadow-[0_0_15px_rgba(25,51,23,0.4)]">
-                  <div className="flex items-center justify-center space-x-2">
-                    <Wheat className="w-4 h-4 text-white" />
-                    <span className="text-sm font-medium text-center">
-                      {variety.name}
-                    </span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+      {/* Label with matching glow */}
+      <div className="bg-[#193317] text-white p-3 transition-all duration-300 group-hover:shadow-[0_0_15px_rgba(25,51,23,0.4)]">
+        <div className="flex items-center justify-center space-x-2">
+          <Wheat className="w-4 h-4 text-white" />
+          <span className="text-sm font-medium text-center">
+            {variety.name}
+          </span>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
         </div>
       </div>
     </div>

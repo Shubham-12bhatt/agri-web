@@ -1,27 +1,12 @@
 import { Wheat } from "lucide-react";
 
-export default function Sella() {
+export default function PR106() {
   const riceVarieties = [
     {
-      name: "1121 Pesticide Residue Free Sella Rice",
-      image: "/images/Sella/1.jpg",
+      name: "PR 106 White/Creamy Sella",
+      image: "/images/1121RawBasmati.jpg",
     },
-    {
-      name: "1509 Pesticide Residue Free Sella Rice",
-      image: "/images/Sella/2.jpg",
-    },
-    {
-      name: "PUSA Basmati Pesticide Residue Free Sella Rice",
-      image: "/images/Sella/3.jpg",
-    },
-    {
-      name: "Sugandha Pesticide Residue Free Sella Rice",
-      image: "/images/Sella/4.jpg",
-    },
-    {
-      name: "Sharbati Pesticide Residue Free Sella Rice",
-      image: "/images/Sella/5.jpg",
-    },
+   
   ];
 
   return (
@@ -39,7 +24,7 @@ export default function Sella() {
 
         {/* Hero Text */}
         <h1 className="relative z-10 text-4xl lg:text-6xl font-bold text-white text-center">
-          Pesticide Residue Free Sella Rice
+          PR 106 Rice
         </h1>
       </div>
 
@@ -49,7 +34,7 @@ export default function Sella() {
           {/* Section Title */}
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-2">
-              Pesticide Residue Free Sella Rice
+              PR 106 Rice
             </h2>
             <div className="w-24 h-0.5 bg-gray-400 mx-auto"></div>
           </div>
@@ -57,7 +42,12 @@ export default function Sella() {
           {/* Description Box */}
           <div className="bg-white/70 border-2 border-gray-300 rounded-lg p-8 mb-16 max-w-4xl mx-auto">
             <p className="text-gray-700 leading-relaxed text-justify">
-             Pesticide Residue Free Sella Rice is a premium variety of rice that is cultivated without the use of synthetic pesticides or chemical fertilizers. This rice undergoes a parboiling process (Sella) before milling, which enhances its firmness, aroma, and nutrient retention while ensuring it is free from harmful residues. Pesticide Residue Free Sella Rice is known for its long grains, rich aroma, and non-sticky texture when cooked. It is a popular choice for health-conscious consumers and is often used in various culinary applications including biryanis, pulao, and steamed rice dishes. Available in both Basmati and non-Basmati variants, it combines traditional flavor with modern processing for optimal quality.
+            This rice is not much big in size but are really good in taste and smell.
+ High protein content and dietary fiber, Delicious taste, Natural aroma, Economical
+              price.
+               <span className="block mt-2 font-semibold text-green-700  px-2 py-1 rounded">
+    100% Sortexed, Cleaned and Polished
+  </span>
             </p>
           </div>
         </div>
@@ -72,7 +62,7 @@ export default function Sella() {
           </div>
 
           {/* Rice Variety Cards */}
-          <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-6 gap-10 max-w-6xl lg:mx-auto mx-20">
+          <div className="grid grid-cols-1 justify-center lg:grid-cols-1 lg:w-100 lg:gap-6 gap-10 max-w-6xl lg:mx-auto mx-20">
             {riceVarieties.map((variety, index) => (
               <div
                 key={index}

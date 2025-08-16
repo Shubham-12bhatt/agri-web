@@ -1,9 +1,9 @@
 import { Wheat } from "lucide-react";
 
-export default function PR14() {
+export default function IR36() {
   const riceVarieties = [
     {
-      name: "PR 14 Raw Rice",
+      name: "IR 36 White/Creamy Parboiled",
       image: "/images/1121RawBasmati.jpg",
     },
    
@@ -24,7 +24,7 @@ export default function PR14() {
 
         {/* Hero Text */}
         <h1 className="relative z-10 text-4xl lg:text-6xl font-bold text-white text-center">
-          PR 14 Rice
+          IR 36 Rice
         </h1>
       </div>
 
@@ -34,7 +34,7 @@ export default function PR14() {
           {/* Section Title */}
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-2">
-              PR 14 Rice
+              IR 36 Rice
             </h2>
             <div className="w-24 h-0.5 bg-gray-400 mx-auto"></div>
           </div>
@@ -42,7 +42,12 @@ export default function PR14() {
           {/* Description Box */}
           <div className="bg-white/70 border-2 border-gray-300 rounded-lg p-8 mb-16 max-w-4xl mx-auto">
             <p className="text-gray-700 leading-relaxed text-justify">
-            PR14 Rice is a non-basmati rice variety that is widely cultivated in India, particularly in the states of Punjab and Haryana. It is known for its medium grain size, soft texture, and affordability. PR14 Rice is commonly used in everyday meals and is a staple in many Indian households. PR14 Rice is a popular choice for daily meals, economical export options, and is widely used in traditional Indian dishes such as khichdi, plain rice, and curries. It cooks quickly and evenly, maintaining a soft texture. PR14 Rice is often preferred for its budget-friendly price and versatility in various cuisines.
+             This is not much big in size but are really good in taste and smell. High
+ protein content and dietary fiber, Delicious taste, Natural aroma, Economical price.
+
+               <span className="block mt-2 font-semibold text-green-700  px-2 py-1 rounded">
+    100% Sortexed, Cleaned and Polished
+  </span>
             </p>
           </div>
         </div>

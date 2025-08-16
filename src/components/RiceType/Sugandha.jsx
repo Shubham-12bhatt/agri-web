@@ -1,23 +1,17 @@
 import { Wheat } from "lucide-react";
 
-export default function BasmatiPusa() {
+export default function Sugandha() {
   const riceVarieties = [
     {
-      name: "Pusa Raw Basmati",
+      name: "Sugandha White/Creamy Sella",
       image: "/images/1121RawBasmati.jpg",
     },
+   
     {
-      name: "Pusa Sella Basmati",
-      image: "/images/1121Sella.webp",
-    },
-    {
-      name: "Pusa Steam Basmati",
+      name: "Sugandha Steam Basmati",
       image: "/images/1121SteamBasmati.jpg",
     },
-    {
-      name: "Pusa Golden Sella Basmati",
-      image: "/images/1121GoldenSella.jpg",
-    },
+    
   ];
 
   return (
@@ -35,7 +29,7 @@ export default function BasmatiPusa() {
 
         {/* Hero Text */}
         <h1 className="relative z-10 text-4xl lg:text-6xl font-bold text-white text-center">
-          Pusa Basmati Rice
+          Sugandha Rice
         </h1>
       </div>
 
@@ -45,7 +39,7 @@ export default function BasmatiPusa() {
           {/* Section Title */}
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-2">
-              Pusa Basmati Rice
+              Sugandha Rice
             </h2>
             <div className="w-24 h-0.5 bg-gray-400 mx-auto"></div>
           </div>
@@ -53,21 +47,14 @@ export default function BasmatiPusa() {
           {/* Description Box */}
           <div className="bg-white/70 border-2 border-gray-300 rounded-lg p-8 mb-16 max-w-4xl mx-auto">
             <p className="text-gray-700 leading-relaxed text-justify">
-              Pusa Raw Basmati Rice is a type of long-grain aromatic rice that
-              is grown in the foothills of the Himalayas in India. It is a
-              popular choice for both everyday meals and special occasions, and
-              is known for its distinct nutty flavor and fluffy, non-sticky
-              texture. Pusa Raw Basmati Rice is a good source of fiber and
-              protein, and is also low in fat. It is a versatile rice that can
-              be used to make a variety of dishes, including biryani, pilaf,
-              pulao, and fried rice. It is also a good choice for risotto and
-              other creamy rice dishes. Here are some of the key characteristics
-              of Pusa Raw Basmati Rice: Long, slender grains Distinct nutty
-              flavor Fluffy, non-sticky texture Good source of fiber and protein
-              Versatile and can be used in a variety of dishes
+              Fine grain, Longer shelf life, pleasing aroma after cooking. 
+               <span className="block mt-2 font-semibold text-green-700 px-2 py-1 rounded">
+    100% Sortexed, Cleaned and Polished
+  </span>
             </p>
           </div>
         </div>
+      
 
         {/* Variety Section */}
         <div className="bg-white py-10 mt-10 pb-30">
@@ -79,12 +66,12 @@ export default function BasmatiPusa() {
           </div>
 
           {/* Rice Variety Cards */}
-         <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-6 gap-10 max-w-6xl lg:mx-auto mx-20">
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 max-w-3xl lg:mx-auto mx-20">
   {riceVarieties.map((variety, index) => (
-   <div
-  key={index}
-  className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-200 border border-transparent "
->
+    <div
+      key={index}
+      className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-200 border border-transparent"
+    >
       {/* Image with subtle zoom */}
       <div className="aspect-square overflow-hidden">
         <img
