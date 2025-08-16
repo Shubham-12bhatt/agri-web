@@ -60,7 +60,7 @@ export default function Hero() {
             <div className="grid grid-cols-3 gap-4 sm:gap-8 pt-8 sm:pt-12">
               <div className="text-center lg:text-left">
                 <div className="text-3xl sm:text-4xl lg:text-5xl font-bold textgreen mb-2">
-                  50+
+                  25+
                 </div>
                 <div className="text-xs sm:text-sm text-black font-medium">
                   Countries Served
@@ -76,7 +76,7 @@ export default function Hero() {
               </div>
               <div className="text-center lg:text-left">
                 <div className="text-3xl sm:text-4xl lg:text-5xl font-bold textgreen mb-2">
-                  20+
+                  25+
                 </div>
                 <div className="text-xs sm:text-sm text-black font-medium">
                   Years Experience
@@ -86,9 +86,9 @@ export default function Hero() {
           </div>
           
             <div className="order-1  lg:order-2 relative h-full flex items-center justify-center">
-            {/* ISO Certification Badge - Top Right */}
+
              <div className="absolute  top-2 right-2 sm:top-4 sm:right-4 lg:top-8 lg:right-8 xl:top-12 xl:right-12 z-30">
-              <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg sm:shadow-gray-300 px-3 py-2 sm:px-4 sm:py-2 lg:px-6 lg:py-[6px] border border-gray-200">
+              {/* <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg sm:shadow-gray-300 px-3 py-2 sm:px-4 sm:py-2 lg:px-6 lg:py-[6px] border border-gray-200">
                 <div className="flex items-center space-x-2 sm:space-x-3">
                   <div className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 bg-green-100 rounded-full flex items-center justify-center">
                     <Award className=" sm:w-4 sm:h-4 lg:w-6 lg:h-6 textgreen" />
@@ -98,14 +98,14 @@ export default function Hero() {
                     <div className="text-xs sm:text-xs lg:text-xs text-gray-500">Export Quality</div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
             {/* Hero Product Image */}
             <div className="relative">
               <img
-                src="images/heroimage.png"
+                src="images/hero.jpg"
                 alt="Premium Rice Products - Family Feast Basmati Rice"
-                className="w-full max-w-sm sm:max-w-md lg:max-w-lg xl:max-w-xl h-auto drop-shadow-2xl relative z-10"
+                className="w-full max-w-sm sm:max-w-md lg:max-w-lg xl:max-w-xl h-100 drop-shadow-2xl relative z-10 rounded-3xl"
               />
 
               {/* Decorative background circles */}

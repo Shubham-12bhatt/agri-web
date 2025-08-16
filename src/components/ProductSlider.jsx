@@ -58,7 +58,7 @@ const ProductSlider = () => {
         swipeable={true}
   draggable={true}
   responsive={responsive}
-  infinite={true}
+  // infinite={true}
   autoPlay={true}
   autoPlaySpeed={3000}
   keyBoardControl={true}
@@ -90,19 +90,19 @@ const ProductSlider = () => {
               {/* <div className="space-y-2 mb-6">
                 <div className="flex items-center text-sm text-gray-600">
                   <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
-                  1401 Steam Basmati Rice
+                  1121 Basmati Rice
                 </div>
                 
               </div> */}
 
-              <div className="flex space-x-3">
+              {/* <div className="flex space-x-3">
                 <button className="flex-1 px-4 py-2 border border-gray-300 text-gray-700 rounded-full hover:border-[#65BA34] hover:text-[#65BA34] cursor-pointer transition-colors duration-200 text-sm font-medium">
                   Read More
                 </button>
                 <button className="flex-1 px-4 py-2 diffgreen cursor-pointer text-white rounded-full hover:bg-green-700 transition-colors duration-200 text-sm font-medium">
                   Inquiry
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
             

@@ -69,18 +69,18 @@ export default function Contact() {
           </div>
 
           {/* Right Content - Map */}
-          <div className="relative">
-            <div className="rounded-2xl overflow-hidden shadow-lg">
-              <img
-                src="/images/map.png"
-                alt="Ahmedabad Location Map"
-                className="w-full h-[400px] lg:h-[500px] object-cover"
-              />
+          {/* Right Content - Google Map */}
+            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.7117629721947!2d70.15596!3d23.107645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3950bb4a94095469%3A0x69ebdd4c53c07b9a!2sAGRI%20INDIA%20FOODS!5e0!3m2!1sen!2sin!4v1755333390769!5m2!1sen!2sin"
+                width="100%"
+                height="500"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
-
-            {/* Map Overlay Info */}
-           
-          </div>
         </div>
       </div>
       </div>

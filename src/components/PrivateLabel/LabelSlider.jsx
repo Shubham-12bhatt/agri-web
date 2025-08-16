@@ -69,7 +69,7 @@ const LabelSlider = () => {
             swipeable={true}
       draggable={true}
       responsive={responsive}
-      infinite={true}
+      // infinite={true}
       autoPlay={true}
       autoPlaySpeed={3000}
       keyBoardControl={true}

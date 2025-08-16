@@ -30,7 +30,7 @@ export default function Footer() {
 
             {/* Social Media */}
    <div className="flex space-x-4">
-  <a
+  {/* <a
     href="#"
     className="group relative w-12 h-12 bg-white/80 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 hover:-translate-y-1 border border-gray-200 hover:border-blue-600"
   >
@@ -60,7 +60,7 @@ export default function Footer() {
   >
     <Youtube className="w-5 h-5 text-gray-700 group-hover:text-white transition-colors duration-300" />
     <div className="absolute inset-0 rounded-full bg-red-600 opacity-0 group-hover:opacity-20 transition-opacity duration-300 blur-sm"></div>
-  </a>
+  </a> */}
 </div>
           </div>
 
@@ -119,32 +119,32 @@ export default function Footer() {
           </div>
 
           {/* Membership */}
-          <div className="lg:col-span-1">
+          {/* <div className="lg:col-span-1">
             <h4 className="text-lg font-bold mb-6 text-gray-800">Membership</h4>
             <div className="grid grid-cols-2 gap-3">
               {/* Certification Badges Row 1 */}
-              <div className="w-16 h-12 bg-blue-100 rounded flex items-center justify-center shadow-sm">
+              {/* <div className="w-16 h-12 bg-blue-100 rounded flex items-center justify-center shadow-sm">
                 <span className="text-xs font-bold text-blue-600">ISO</span>
               </div>
               <div className="w-16 h-12 bg-green-100 rounded flex items-center justify-center shadow-sm">
                 <span className="text-xs font-bold text-green-600">FSAI</span>
-              </div>
+              </div> */}
               {/* Certification Badges Row 2 */}
-              <div className="w-16 h-12 bg-green-100 rounded flex items-center justify-center shadow-sm">
+              {/* <div className="w-16 h-12 bg-green-100 rounded flex items-center justify-center shadow-sm">
                 <span className="text-xs font-bold text-green-600">ORG</span>
               </div>
               <div className="w-16 h-12 bg-blue-100 rounded flex items-center justify-center shadow-sm">
                 <span className="text-xs font-bold text-blue-600">ISO</span>
-              </div>
+              </div> */}
               {/* Certification Badges Row 3 */}
-              <div className="w-16 h-12 bg-green-100 rounded flex items-center justify-center shadow-sm">
+              {/* <div className="w-16 h-12 bg-green-100 rounded flex items-center justify-center shadow-sm">
                 <span className="text-xs font-bold text-green-600">ORG</span>
               </div>
               <div className="w-16 h-12 bg-green-100 rounded flex items-center justify-center shadow-sm">
                 <span className="text-xs font-bold text-green-600">FSAI</span>
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div>  */}
 
           {/* Address */}
           <div className="lg:col-span-1">
@@ -154,7 +154,9 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 mt-0.5 text-gray-700" />
                 <div className="text-sm text-gray-800">
-                  +91 9979090020, 7228821464
+                  Amit Thatai: +91 9877002359<br>
+                  </br>
+                  Akshit Thatai: +91 9517909020
                 </div>
               </div>
 
@@ -181,7 +183,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-600/30 mt-12 pt-8">
           <div className="text-sm text-gray-700">
-            © Rice Food, All Right Reserved
+            © Agri India Foods, All Right Reserved
           </div>
         </div>
       </div>

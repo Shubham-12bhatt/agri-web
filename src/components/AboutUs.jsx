@@ -14,14 +14,16 @@ export default function AboutUs() {
             Why Choose Agri India Foods?
           </h3>
           <p className="text-gray-700 text-lg lg:text max-w-4xl mx-auto leading-relaxed">
-            With over two decades of experience in rice cultivation and export,
-            we have established ourselves as a trusted partner for international
-            buyers seeking premium quality Indian rice. Our commitment to
-            sustainable farming practices, advanced processing techniques, and
-            stringent quality control measures ensures that every grain meets
-            international standards.
+            With over 20 years of expertise in rice cultivation and export, Agri India Foods has earned a reputation as a reliable partner for buyers around the globe. We specialize in delivering premium-quality Indian rice that meets the highest international standards.
+
           </p>
         </div>
+        
+
+
+
+
+
 
         {/* Mission and Vision Cards */}
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto">
@@ -36,9 +38,7 @@ export default function AboutUs() {
               </h4>
             </div>
             <p className="text-gray-700 text-center leading-relaxed">
-              To be the leading exporter of premium Indian rice, celebrating the
-              agricultural heritage of India with global markets through quality
-              products and sustainable farming partnerships.
+              To lead the global rice export industry by delivering premium-quality Indian rice, while honoring our agricultural heritage and building sustainable, long-term partnerships that empower farmers and serve global markets with integrity.
             </p>
           </div>
 
@@ -53,12 +53,13 @@ export default function AboutUs() {
               </h4>
             </div>
             <p className="text-gray-700 text-center leading-relaxed">
-              To establish India as the most trusted source of premium rice
-              globally, while empowering local farming communities through
-              sustainable supply chain solutions.
+              To establish Agri India Foods as the most trusted global source for premium Indian rice by championing quality, sustainability, and farmer empowerment across every link of the supply chain.
             </p>
           </div>
         </div>
+
+
+
       </div>
     </div>
   );
